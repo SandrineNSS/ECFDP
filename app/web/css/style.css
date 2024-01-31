@@ -1,0 +1,19 @@
+.global-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+video {
+  object-fit: cover;
+}
+.parallax-section {
+  background: url("ressources/parallax.jpg") no-repeat bottom / cover fixed;
+  min-height: 250px;
+}
+
+.profile-icon-container {
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100px;
+  z-index: 2000;
+}
